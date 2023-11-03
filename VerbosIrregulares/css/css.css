@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+select,
+input[type="number"] {
+    width: 25%;
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#verdadero{
+    background-color: green;
+}
+#falso{
+    background-color: red;
+}
